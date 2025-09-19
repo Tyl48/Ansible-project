@@ -247,6 +247,12 @@ require_once(ABSPATH . 'wp-settings.php');
 ssh -i ~/.ssh/id_rsa user_name@internal_ip_vm
 ```
 ## 5.1. Fix lỗi missing passwd
+- vào 2 vm, nhập "sudo visudo" rổi thêm dòng này vào cuối
+
+```
+username ALL=(ALL) NOPASSWD:ALL
+```
+
 ```text
 cd /etc/sshe
 nano sshd_config
