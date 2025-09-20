@@ -93,7 +93,7 @@ retry_files_enabled = False
 ```text
 db_name: wordpress
 db_user: wp_user
-db_password: wp_password
+db_password: supersecret123
 ```
 
 ## 4.3. wordpress.yml
